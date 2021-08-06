@@ -23,8 +23,14 @@ const SearchResult = ({
 
                   <div className = 'searchResult__stars'>
                       <StarIcon className= 'searchResult__star'/>
+                      <p>
+                          <strong>{star}</strong>
+                      </p>
                   </div>
-
+                  <div className='searchResults__price'>
+                        <h2>{price}</h2>
+                        <p>{total}</p>
+                    </div>
                   
               </div>
 

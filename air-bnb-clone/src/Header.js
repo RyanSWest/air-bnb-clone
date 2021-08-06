@@ -25,10 +25,10 @@ function Header() {
 
 </Link>
             <div className = 'header__center'>
-                <form>
+               
                     <input  />
 
-                </form>
+               
                 <SearchIcon/>
             </div>
 
