@@ -32,11 +32,12 @@ function Search() {
             <DateRangePicker ranges={
                 [selectionRange]} onChange =
                 {handleSelect}/>
-
+                 <div className ='bottom'> 
                 <h2>Number of guests
-                    <PeopleIcon/>
+                   
                 </h2>
-           
+                <PeopleIcon/>
+                </div>
                 <input min={0} defaultValue={2} type="number" />
             <Button onClick={() => history.push('/search')}>Search Airbnb</Button>
 
